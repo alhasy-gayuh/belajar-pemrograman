@@ -1,0 +1,13 @@
+untum memvisualisasikan branch bisa menggunakan perintah berikut:
+
+git log --all --decorate --oneline --graph
+
+alias graph ="git log --all --decorate --oneline --graph"
+
+branch dapat di artikan juga sebagai USER yang mengelolah REPO
+
+untuk pindah branch dapat menggunakan perintah: git checkout <isi nama branch>
+
+Merge ada 2:
+1. Fast Forward
+2. Three-way Merge
