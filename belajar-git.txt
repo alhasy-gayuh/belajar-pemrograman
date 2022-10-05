@@ -17,3 +17,8 @@ Merge ada 2:
 
 untuk menambahkan branch cukup gunakan perintah: ~ git merge <isi nama branchnya>
 untuk menghapus branch gunakan perintah: ~ git branch -d <isi nama branch yang mau di hapus>
+
+checkout juga bisa di lakukan ke commit, dengan tujuan untuk mengembalikan hasil commit yang sebelumnya (undo)
+dengan menggunakan perintah : ~ git checkout <isi 7 digit dari kode unit commit>
+
+cara cek kode unik di commit gunakan perintah: ~ git log
