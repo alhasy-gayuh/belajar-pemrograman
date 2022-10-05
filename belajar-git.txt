@@ -13,7 +13,7 @@ untuk pindah branch dapat menggunakan perintah: ~ git checkout <isi nama branch>
 
 Merge ada 2:
 1. Fast Forward
-2. Three-way Merge
+2. Three-way Merge ~ git branch --merged
 
 untuk menambahkan branch cukup gunakan perintah: ~ git merge <isi nama branchnya>
 untuk menghapus branch gunakan perintah: ~ git branch -d <isi nama branch yang mau di hapus>
