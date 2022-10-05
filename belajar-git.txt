@@ -5,7 +5,7 @@ untuk memvisualisasikan branch bisa menggunakan perintah berikut:
 
 ~ git log --all --decorate --oneline --graph
 
-~ alias graph ="git log --all --decorate --oneline --graph"
+~ alias graph="git log --all --decorate --oneline --graph"
 
 branch dapat di artikan juga sebagai USER yang mengelolah REPO
 
