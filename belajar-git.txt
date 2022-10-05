@@ -1,13 +1,19 @@
-untum memvisualisasikan branch bisa menggunakan perintah berikut:
+dalam melakukan commit, jika file adalah hasil modifikasi gunakan perintah berikut:
+~ git commit -am "<isi dengan komentar>"
 
-git log --all --decorate --oneline --graph
+untuk memvisualisasikan branch bisa menggunakan perintah berikut:
 
-alias graph ="git log --all --decorate --oneline --graph"
+~ git log --all --decorate --oneline --graph
+
+~ alias graph ="git log --all --decorate --oneline --graph"
 
 branch dapat di artikan juga sebagai USER yang mengelolah REPO
 
-untuk pindah branch dapat menggunakan perintah: git checkout <isi nama branch>
+untuk pindah branch dapat menggunakan perintah: ~ git checkout <isi nama branch>
 
 Merge ada 2:
 1. Fast Forward
 2. Three-way Merge
+
+untuk menambahkan branch cukup gunakan perintah: ~ git merge <isi nama branchnya>
+untuk menghapus branch gunakan perintah: ~ git branch -d <isi nama branch yang mau di hapus>
