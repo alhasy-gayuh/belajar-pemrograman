@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 .hello{
+    color: orange;
+}
+.hello:hover{
+    color: aqua;
+}
+.hello:active{
+    font-style: italic;
+}
+.hello:visited{
+    color: red;
+}
+
+/* child pada setiap element 
+first-child -> anak pertama
+last-child -> anak terakhir
+nth-child() -> anak spesifik
+*/
+
+/* Contoh Penggunaan Child */
+
+li:first-child a{
+    color: green;
+}
+li:last-child a{
+    color: brown;
+}
+li:nth-child(3) a{
+    color: aqua;
+}
+/* li:nth-child(3n-2) a{
+    font-style: italic; -> untuk kelipatan
+    color: black;
+} */
+li:nth-child(odd) a{
+    color: green;
+}
+li:nth-child(odd) a:hover{
+    color: yellow;
+}
+
+/* Memilih Posisi element yang ingin di rubah */
+
+p:first-of-type{
+    color: red;
+}
+p:last-of-type{
+    color: green;
+}

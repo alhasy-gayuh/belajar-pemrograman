@@ -1,0 +1,36 @@
+/* Sekarang kita akan belajar INHERIT */
+/* Inherit artinya dapat mewarisi dari semuanya */
+/* contohnya element dari LINK biasanya tidak akan
+berubah warananya walaupun kita merubah secara global
+
+jadi cara mengatasinya dengan menggunakan inherit
+*/
+/* CONTOH */
+
+body{
+    color: green; /* disini warna element LINK masih biru */
+}
+a {
+    color: inherit; /* disini warna sudah bisa berubah menyesuaikan dengan keseluruhan */
+}
+
+/* urutan prioritas dari CSS */
+/* 
+
+1. inline
+2. id
+3. class
+4. element
+
+*/
+
+/* menghitung bobot dari setiap perioritas */
+
+/* 
+
+0, 0, 0, 0
+inline, id, class, element
+
+jika ada maka bobot nya = 1
+jika tidak maka = 0
+*/

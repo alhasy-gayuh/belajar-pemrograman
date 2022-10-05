@@ -1,0 +1,25 @@
+<!-- <tr> itu jalannya ke bawah, 1 <tr> bisa banyak <td> -->
+<!-- <td> itu jalannya ke samping, banyak <td> bisa di masukkan dalam <tr> -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dasar HTML</title>
+    </head>
+    <body>
+        <table border="1px" cellspacing="0" cellpadding="8">
+            <tr> <!-- ini artinya satu row (satu kolom) ke samping -->
+                <td rowspan="3">3 Baris</td>
+                <td colspan="2">Gabung 2 Kolom</td> <!-- ini untuk menggabungkan Kolom -->
+            </tr>
+            <tr>
+                <td>2,2</td> <!-- ini artinyasatu data/cell (satu baris) jalanya ke bawah -->
+                <td>2,3</td>
+            </tr>
+            <tr>
+                <td>3,2</td>
+                <td>3,3</td>
+            </tr>
+        </table>
+    </body>
+</html>
